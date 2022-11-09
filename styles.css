@@ -4,8 +4,6 @@ body {
     width: 2001px;
     height: 50px;
     background: rgb(0, 213, 255);
-  
-
 }
 
 #game{
@@ -22,31 +20,31 @@ body {
     background-color: black;
     position: relative;
     left: 400 px;
-    animation: block 3s infinite linear;
+    animation: block 2s infinite linear;
 }
 
-@keyframes block {
-    0%{left:400px}
-    100%{left:-50px}
-}
-
-#hole{
-    width: 50px;
-    height: 200px;
-    background-color: red;
-    position : relative;
-    left: 400px;
-    top: -500px;
-    animation: block 3s infinite linear;
-}
 #character{
     width:20px;
     height:20px;
     background: red;
     position: absolute;
-    top: 100px;
+    top: 200px;
     border-radius: 50%;
+}
 
+#hole{
+    width: 50px;
+    height: 200px;
+    background-color: rgb(0, 213, 255);
+    position : relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+
+@keyframes block {
+    0%{left:400px}
+    100%{left:-50px}
 }
 
 b { 
@@ -55,14 +53,10 @@ b {
     width: 2001px;
     height:50px;
     background: rgb(0, 213, 255);
-
 }
 
-
 a {
-    border: 1px solid black;
-  
+    border: 1px solid black;  
     background-color: yellow;
     padding: 10px;
-    
 }
