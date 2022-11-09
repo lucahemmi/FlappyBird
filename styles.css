@@ -16,7 +16,7 @@ body {
 
 #block{
     width: 50px;
-    height: 500px;
+    height: 600px;
     background-color: black;
     position: relative;
     left: 400 px;
@@ -24,11 +24,11 @@ body {
 }
 
 #character{
-    width:20px;
-    height:20px;
+    width:25px;
+    height:25px;
     background: red;
     position: absolute;
-    top: 200px;
+    top: 250px;
     border-radius: 50%;
 }
 
