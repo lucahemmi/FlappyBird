@@ -1,31 +1,32 @@
 body { 
     padding: 2;
     margin: 2;  
-    width: 2001px;
+    width: 500px;
     height: 50px;
     background: rgb(0, 213, 255);
+    border: 1px, solid black;
 }
 
 #game{
     width: 400px;
     height: 500px;
     border: 1px solid black;
-    margin: 2;
+    margin: 10;
     overflow: hidden;
 }
 
 #block{
     width: 50px;
     height: 600px;
-    background-color: black;
+    background-color: grey;
     position: relative;
     left: 400 px;
     animation: block 2s infinite linear;
 }
 
 #character{
-    width:25px;
-    height:25px;
+    width:20px;
+    height:20px;
     background: red;
     position: absolute;
     top: 250px;
@@ -34,11 +35,11 @@ body {
 
 #hole{
     width: 50px;
-    height: 200px;
+    height: 90px;
     background-color: rgb(0, 213, 255);
     position : relative;
     left: 400px;
-    top: -500px;
+    top: -300px;
     animation: block 2s infinite linear;
 }
 

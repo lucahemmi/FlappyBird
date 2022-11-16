@@ -12,13 +12,14 @@ hole.addEventListener('animationiteration',() =>{
 setInterval(function(){
     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
     if (jumping == 0) { 
-    character.style.top = (characterTop+3)+"px"
+    character.style.top = (characterTop+2)+"px"
     }
-    if (characterTop>480){
+    if (characterTop>560){
         alert("Game Over. Score: " + counter);
         character.style.top = 100+"px";
         counter = 0;
     }
+
 },10);
 
  function jump() {
@@ -27,7 +28,7 @@ setInterval(function(){
     var jumpInterval = setInterval(function(){
         var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
         if ((characterTop>6)&&(counter<15)) {
-            character.style.top = (characterTop-5)+"px";
+            character.style.top = (characterTop-3)+"px";
         }
             if (jumpCount > 20) {
                 clearInterval(jumpInterval);
