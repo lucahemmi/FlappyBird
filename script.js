@@ -20,12 +20,12 @@ setInterval(function(){
     var cTop = -(500-characterTop);
     if (characterTop>570){
         alert("Game Over. Score: " + counter);
-        character.style.top = 100 +  "px";
+        character.style.top = 300 +  "px";
         counter = 0;
      }
     if (characterTop<80){
         alert("Game Over. Score: " + counter);
-        character.style.top = 100 + "px";
+        character.style.top = 300 + "px";
         counter = 0;
     }
     
@@ -37,7 +37,7 @@ setInterval(function(){
     let jumpCount = 0;
     var jumpInterval = setInterval(function(){
         var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-        if ((characterTop>6)&&(jumpCount<25)) {
+        if ((characterTop>5)&&(jumpCount<25)) {
             character.style.top = (characterTop-3)+"px";
         }
         if (jumpCount>20){

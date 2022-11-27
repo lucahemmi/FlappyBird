@@ -5,23 +5,36 @@
     <link rel="stylesheet" link href="styles.css"/>
     <script src="script.js" defer></script>
     <title>Flappy Bird</title>
-    <h1>Highscores</h1>
 </head>
 
+<div id="wrapper">
 <body>
-    <div id="c"></div>
+    <h1>Highscores</h1>
     <div class="leaderboard">
-        <h3> Leaderboard</h3>
-        
+        <h2> Leaderboard</h2>
+            <div class="lboardsection">
+                 <div class="tabs">
+                    <ul>
+                        <li data-li="today">Today</li>
+                            <li class ="active" data-li="All-Time">All-Time</li>
+                        </ul>        
+                    </div>
+            </div>
+
+            <div class ="lboard_wrap">
+                <div class="lboard_item today">
+                    <div class="lboard_mem">
+                        
+                    </div>
+                </div>
+                <div class="lboard_item All-Time"></div>
+            </div>
     </div>
-    <span id="counter"></span>
-    <button id="plusOne">+</button>
-    <button id="reset">reset</button>
+</div>
     
-<c>
     
     <br />
     <a href="index.html">Back </a> 
-    <c />
+    
 </body>
     
