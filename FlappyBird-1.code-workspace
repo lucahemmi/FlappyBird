@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "FlappyBird-2",
+			"path": "../FlappyBird-2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FlappyBird-1"
+	}
+}
